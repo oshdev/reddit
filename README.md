@@ -1,4 +1,4 @@
-# your-app-name
+# team-osh-reddit
 
 Site URL: https://example.com
 
@@ -13,7 +13,7 @@ This template uses:
 
 ### Using this template
 
-1. Replace all occurrences of `your-app-name` with your actual app name
+1. Replace all occurrences of `team-osh-reddit` with your actual app name
 2. Uncomment the "deployment" block in .github/workflows/ci.yml if you would like
    to deploy to heroku after each push to master
 3. Delete the "About this template" section of the README :)

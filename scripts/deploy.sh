@@ -23,7 +23,7 @@ print 'logging in'
 heroku container:login
 
 print 'pushing container'
-heroku container:push web -a your-app-name
+heroku container:push web -a team-osh-reddit
 
 print 'releasing container'
-heroku container:release web -a your-app-name
+heroku container:release web -a team-osh-reddit

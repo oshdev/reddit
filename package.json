@@ -1,5 +1,5 @@
 {
-  "name": "your-app-name",
+  "name": "team-osh-reddit",
   "private": true,
   "scripts": {
     "test": "jest",
