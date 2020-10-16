@@ -26,5 +26,5 @@
       "path": "../shared/tsconfig.json"
     }
   ],
-  "include": ["./**/*.ts"]
+  "include": ["./**/*.ts", "./**/*.json"]
 }
