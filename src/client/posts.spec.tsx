@@ -4,10 +4,8 @@ import Posts, { Post } from './posts'
 
 describe('posts listing', () => {
   it('should render posts', () => {
-    let body = 'osh was here'
-    const posts: Post[] = [
-      { body }
-    ]
+    const body = 'osh was here'
+    const posts: Post[] = [{ body }]
     const { getByText } = render(<Posts posts={posts} />)
     expect(getByText(body)).not.toBeNull()
   })

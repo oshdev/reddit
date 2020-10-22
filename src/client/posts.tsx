@@ -9,7 +9,11 @@ interface PostsProps {
 }
 
 const Posts: FC<PostsProps> = ({ posts }) => (
-  <>{posts.map(({ body }, index) => <article key={index}>{body}</article>)}</>
+  <>
+    {posts.map(({ body }, index) => (
+      <article key={index}>{body}</article>
+    ))}
+  </>
 )
 
 export default Posts
